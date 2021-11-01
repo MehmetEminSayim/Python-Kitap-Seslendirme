@@ -14,3 +14,5 @@ for page_num in range(0,pdfVoice.numPages):
     write = page.extractText()
     engine.say(write)
     engine.runAndWait()
+
+#kitap seslendirme kısmında voices[0] erkek 1 konumunda kadın sesi gelmektedir.
